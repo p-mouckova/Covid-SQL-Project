@@ -56,7 +56,7 @@ Tato tabulka slouží k výpočtu podílů jednotlivých náboženství na celko
 #### 4.	**t_pavla_mouckova_projekt_SQL_weather** 
 V této tabulce jsou zpracována data o počasí pro jednotlivé státy .  
 ___
-###Výsledná tabulka 
+### Výsledná tabulka 
 
 #### **t_pavla_mouckova_projekt_SQL_final** 
 Obsahuje následující informace:
