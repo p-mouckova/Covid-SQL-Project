@@ -65,30 +65,30 @@ Obsahuje následující informace:
 
 * **country** – název země, v tabulce jsou informace o 190 zemích
 * **date** – datum testování, data jsou dostupná od 22.1.2020
-* **weekend** – obsahuje hodnotu 0 pro pracovní den a hodnotu 1 pro víkend
-* **season** – popisuje roční období daného dne, nabývá následujících hodnot: 0 – jaro, 1 – léto, 
-                 2 – podzim, 3- zima
-* **confirmed** – udává počet nakažených lidí k danému dni
-* **tests_performed_all_metrics**  – udává počtu provedených testů v daný den bez ohledu na rozdílné. Data o počtech provedených testů  jsou dostupná pro 118 států.     
+* **weekend** – obsahuje hodnotu **0** pro **pracovní den** a hodnotu **1** pro **víkend**
+* **season** – popisuje roční období daného dne, nabývá následujících hodnot: **0** – jaro, **1** – léto, 
+                 **2** – podzim, **3**- zima
+* **confirmed** – udává počet pozitivních výsledků testů k danému dni
+* **tests_performed_all_metrics**  – udává počet provedených testů v daný den bez ohledu na metriku testování. Data o počtech provedených testů  jsou dostupná pro 118 států.     
 * **tests_performed** , **people_tested**, **units_unclear** – detailní rozdělení počtu testů dle metrik
-* **population** – populace daného státu. Informace o populaci pro jednotlivé státy byla obsažena hned v několika tabulkách s mírně odlišnými hodnotami. Do výsledné tabulky jsem se 
+* **population** – populace daného státu. Informace o populaci pro jednotlivé státy byly obsaženy hned v několika tabulkách s mírně odlišnými hodnotami. Do výsledné tabulky jsem se 
 rozhodla použít spočtenou hodnotu celkové populace z tabulky Religions, protože k této hodnotě se vážou podíly jednotlivých náboženství v dané zemi. Data nejsou dostupná pro 8 států.
 * **population_density** – pro hustotu zalidnění jsem nepoužila již dostupné informace z tabulky countries, ale přepočítala jsem ji s výše použitou populací z tabulky Religions.
-* **GDP_pc** – udává HDP na obyvatele. Zde jsou použita poslední dostupná data pro jednotlivé státy. Data nejsou dostupná pro 16 států
+* **GDP_pc** – udává HDP na obyvatele. Pro výpočet byla použita poslední dostupná data o HDP pro jednotlivé státy. Data nejsou dostupná pro 16 států
 * **GINI** – poslední dostupná data pro GINI koeficient jednotlivý států. Data nejsou dostupná pro 36 států
 * **mortlity_under5** – údaje o dětské úmrtnosti. Data nejsou dostupná pro 14 států
 * **life_exp_1965_2015_diff** – rozdíl mezi očekávanou dobou dožití v roce 1965 a v roce 2015. Data nedostupná por 13 států.
 * **median_age18** – medián věku obyvatel v roce 2018. Data nedostupná pro 16 států.
 
 Následující sloupce **Christianity** , **Islam, Unaffiliated Religions**, **Hinduism**, **Buddhism**, **Folk Religions**,
- **Other Religions** a **Judaism** udávají podíl těchto náboženství na celkové populaci země v procentech.
+ **Other Religions** a **Judaism** udávají podíl těchto náboženství na celkové populaci země v **procentech**.
 
 Data o počasí jsou dostupná pouze pro 34 států . Tyto hodnoty byly naměřeny v hlavních městech daných států.  
 * **day_temperature_avg**– průměrná denní teplota, pro výpočet jsem použila hodnoty v čase 6 – 18 hodin
 * **gust_max** – maximální síla větru v nárazech během dne
 * **rainy_hours_sum**– počet hodin v daném dni, kdy byly srážky nenulové 
 
-Veškerá data ve výstupní tabulce jsou sežazena podle **data sestupně** a podle **státu vzestupně**.
+Veškerá data ve výstupní tabulce jsou seřazena podle **data sestupně** a podle **státu vzestupně**.
 ___
 
 
