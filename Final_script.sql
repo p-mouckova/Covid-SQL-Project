@@ -152,10 +152,3 @@ LEFT JOIN t_pavla_mouckova_projekt_SQL_countries co
 LEFT JOIN t_pavla_mouckova_projekt_SQL_religions re 
 	ON te.iso3 = re.iso3
 ORDER BY te.`date` DESC, te.country;
-
-
-
-
-
-
-
