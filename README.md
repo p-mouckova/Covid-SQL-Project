@@ -85,6 +85,8 @@ Data o počasí jsou dostupná pouze pro 34 států . Tyto hodnoty byly naměře
 * **day_temperature_avg**– průměrná denní teplota, pro výpočet jsem použila hodnoty v čase 6 – 18 hodin
 * **gust_max** – maximální síla větru v nárazech během dne
 * **rainy_hours_sum**– počet hodin v daném dni, kdy byly srážky nenulové 
+
+Veškerá data ve výstupní tabulce jsou sežazena podle data sestupně a podle státu vzestupně.
 ___
 
 
