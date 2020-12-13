@@ -90,7 +90,7 @@ Data o počasí jsou dostupná pouze pro 34 států . Tyto hodnoty byly naměře
 
 Veškerá data ve výstupní tabulce jsou seřazena podle **data sestupně** a podle **státu vzestupně**.
 
-### Detailní přehled států, pro které jsou jednotlivá data **nedostupná**, je uložen v souboru s názvem **missing_data_overview.csv nebo **missing_data_overview.xlsx**
+### Detailní přehled států, pro které jsou jednotlivá data **nedostupná**, je uložen v souboru s názvem **missing_data_overview.csv** nebo **missing_data_overview.xlsx**
 
 ___
 
