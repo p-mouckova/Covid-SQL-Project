@@ -1,17 +1,17 @@
 CREATE OR REPLACE TABLE t_pavla_mouckova_projekt_SQL_covid19
 SELECT c.country ,
-	   lt.iso3,  
-	   c.`date`,
-	   CASE WHEN weekday(c.`date`) IN (5,6) THEN 1 ELSE 0 END AS weekend, 
-	   CASE WHEN c.`date` BETWEEN '2020-03-20' AND '2020-06-19' THEN 0
-		    WHEN c.`date` BETWEEN '2020-06-20' AND '2020-09-21' THEN 1
-		    WHEN c.`date` BETWEEN '2020-09-22' AND '2020-12-20' THEN 2
-		    ELSE 3 END AS season,
-	   c.confirmed ,
-	   t.tests_performed_all_metrics,
-	   t.tests_performed,
-	   t.people_tested,
-	   t.units_unclear
+       lt.iso3,  
+       c.`date`,
+       CASE WHEN weekday(c.`date`) IN (5,6) THEN 1 ELSE 0 END AS weekend, 
+       CASE WHEN c.`date` BETWEEN '2020-03-20' AND '2020-06-19' THEN 0
+            WHEN c.`date` BETWEEN '2020-06-20' AND '2020-09-21' THEN 1
+            WHEN c.`date` BETWEEN '2020-09-22' AND '2020-12-20' THEN 2
+            ELSE 3 END AS season,
+       c.confirmed ,
+       t.tests_performed_all_metrics,
+       t.tests_performed,
+       t.people_tested,
+       t.units_unclear
 FROM covid19_basic_differences AS c        
 JOIN lookup_table lt             								
 	ON c.country = lt.country
